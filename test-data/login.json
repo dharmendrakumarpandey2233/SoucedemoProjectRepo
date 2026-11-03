@@ -1,0 +1,33 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "invalid_password"
+  },
+  "errors": {
+    "usernameRequired": "Epic sadface: Username is required",
+    "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
+    "lockedUser": "Epic sadface: Sorry, this user has been locked out.",
+    "firstNameRequired": "Error: First Name is required"
+  },
+  "checkout": {
+    "firstName": "Test",
+    "lastName": "User",
+    "postalCode": "12345"
+  },
+  "products": {
+    "count": 6,
+    "firstInNameDescending": "Test.allTheThings() T-Shirt (Red)",
+    "backpack": "Sauce Labs Backpack",
+    "backpackPricePattern": "/\\$ ?29\\.99/",
+    "backpackTotal": "$32.39"
+  }
+}
